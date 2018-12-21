@@ -17,6 +17,7 @@ public class Receiver {
     public void receive(@Payload String message,
                         @Headers MessageHeaders headers) {
         LOG.info("received message='{}'", message.toString());
+        MessageStore.addMessage(message);
         headers.keySet().forEach(key -> LOG.info("{}: {}", key, headers.get(key)));
     }
 

@@ -1,7 +1,9 @@
 spring:
   kafka:
     bootstrap-servers: "kafka1:9092,kafka2:9092,kafka3:9092"
-
+    consumer:
+      group-id: foo
+      auto-offset-reset: earliest
 app:
   topic:
     test: test

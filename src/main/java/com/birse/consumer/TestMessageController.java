@@ -1,4 +1,4 @@
-package com.birse.producer;
+package com.birse.consumer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +19,6 @@ public class TestMessageController {
     }
 
     private String createMessage() {
-        return "Hello World this is the producer: " + RandomIDGenerator.generateLong();
+        return "Hello World this is the consumer: " + RandomIDGenerator.generateLong();
     }
 }

@@ -1,4 +1,4 @@
-package com.birse.producer;
+package com.birse.consumer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

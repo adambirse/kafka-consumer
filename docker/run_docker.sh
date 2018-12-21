@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker run -p 8080:8080 -d kafka-producer:latest
+docker run -p 8080:8080 -d kafka-consumer:latest

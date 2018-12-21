@@ -13,7 +13,7 @@ cache:
 env:
   global:
   - GOOGLE_APPLICATION_CREDENTIALS=~/gcloud-service-key.json
-  - DOCKER_IMAGE_NAME=producer
+  - DOCKER_IMAGE_NAME=consumer
 
 language: java
 jdk:

@@ -1,2 +1,2 @@
-## Kafka Producer for deploying to Google Cloud.
+## Kafka Consumer for deploying to Google Cloud.
 

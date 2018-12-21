@@ -1,4 +1,4 @@
-package com.birse.producer;
+package com.birse.consumer;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +9,7 @@ public class HelloWorldController {
 
     @RequestMapping("/")
     public String hello() {
-        return "Hello World";
+        return "Hello from the consumer";
     }
 
 }

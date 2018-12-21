@@ -1,4 +1,4 @@
-package com.birse.producer;
+package com.birse.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

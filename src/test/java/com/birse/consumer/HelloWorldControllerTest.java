@@ -1,4 +1,4 @@
-package com.birse.producer;
+package com.birse.consumer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,6 +22,6 @@ public class HelloWorldControllerTest {
     public void hello() throws Exception {
         mockMvc.perform(get("/")).
                 andExpect(status().isOk()).
-                andExpect(content().string("Hello World"));
+                andExpect(content().string("Hello from the consumer"));
     }
 }

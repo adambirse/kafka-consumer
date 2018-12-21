@@ -14,8 +14,6 @@ apply from: rootProject.file("gradle_support/spring-boot.gradle")
 
 dependencies {
 	compile("org.springframework.kafka:spring-kafka")
-	compile("org.apache.commons:commons-math3:3.6.1")
-
 	testCompile("org.springframework.kafka:spring-kafka-test")
 }
 
